@@ -1,74 +1,30 @@
-# 🌍 Currency Converter
+# 🌍 Real-Time Currency Converter
 
-A simple and responsive Currency Converter Web App built using HTML, CSS, and JavaScript.
-It fetches live exchange rates using a public API and updates results instantly.
-
-🚀 Features
-
-Real-time currency conversion
-
-API-powered exchange rates
-
-Auto-updating flags for selected currencies
-
-Clean and responsive UI
-
-Default conversion: USD → INR
-
-🛠️ Tech Stack
-
-HTML5
-
-CSS3
-
-JavaScript (ES6)
-
-Currency API (jsDelivr)
-
-📌 How It Works
-
-User selects From and To currency
-
-Enters an amount
-
-App fetches exchange rate from API
-
-Displays converted amount instantly
-
-📂 Project Structure
-/currency-converter
-│── index.html
-│── style.css
-│── script.js
-│── countryList.js
-
-🔗 API Used
-https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies
-
-📥 Installation & Usage
-
-Clone this repository:
-
-git clone https://github.com/your-username/currency-converter.git
+**A fast, responsive, and reliable Currency Converter built with vanilla JavaScript, fetching live exchange rates via a public API.**
 
 
-Open the folder
 
-Run index.html in your browser
+## 🌟 Features
 
-Start converting currencies!
+* **Real-time Conversion:** Fetches and displays the most current exchange rates.
+* **API-Powered Rates:** Utilizes a secure, open-source currency API for data accuracy.
+* **Auto-Updating Flags:** Currency flags change dynamically based on user selection, enhancing the UI.
+* **Clean & Responsive UI:** Designed with a modern aesthetic that works perfectly on desktop and mobile devices.
+* **Default View:** Starts with the **USD** to **INR** conversion pair.
 
-💡 Future Enhancements
+## 🛠️ Tech Stack
 
-Dark/Light mode
+| Technology | Purpose |
+| :--- | :--- |
+| **HTML5** | Project structure and semantic markup |
+| **CSS3** | Styling, layout, and responsiveness |
+| **JavaScript (ES6+)** | Core logic, DOM manipulation, and API interaction |
+| **jsDelivr Currency API** | Live exchange rate data source |
 
-Swap currency button
+## 🔗 API Used
 
-Conversion history
+The project uses the free, open-source currency API hosted on jsDelivr:
 
-Graphs for past exchange rates
+`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies`
 
-🙌 Author
-
-Akshay Jain
-Built with ❤️ using HTML, CSS, and JavaScript.
+## 📦 Project Structure
