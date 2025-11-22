@@ -28,7 +28,11 @@ The project uses the free, open-source currency API hosted on jsDelivr:
 `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies`
 
 ## 📦 Project Structure
-currency-converter/ ├── index.html # Main structure of the application ├── style.css # Styling and responsiveness ├── script.js # Core logic (API calls, conversion, DOM updates) └── countryList.js # Static data for currency codes and country codes
+currency-converter/
+├── index.html        # The Structure (HTML)
+├── style.css         # The Presentation (CSS)
+├── script.js         # The Logic (JavaScript)
+└── countryList.js    # The Data (JavaScript Object)
 
 
 ## ⬇️ Installation & Usage
@@ -37,7 +41,7 @@ Follow these simple steps to get the project running locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/currency-converter.git](https://github.com/your-username/currency-converter.git)
+    git clone https://github.com/Akshay1267/Currency-converter.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -61,4 +65,3 @@ Follow these simple steps to get the project running locally:
 | **Akshay Jain** | Developer & Project Maintainer |
 
 ---
-**License:** *[Optional: Add License Information Here, e.g., MIT]*
